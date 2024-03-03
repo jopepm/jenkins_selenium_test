@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-driver = webdriver.Chrome('path_to_chromedriver')
+driver = webdriver.Chrome()
 driver.get('./example.html')
 
 title = driver.title
