@@ -10,7 +10,7 @@ options = webdriver.ChromeOptions()
 options.add_argument("--headless")
 options.add_argument('--no-sandbox')
 driver = webdriver.Chrome(options = options)
-driver.get(html_file_path)
+driver.get('https://example.org/')
 
 title = driver.title
 print("Title of the website:", title)
